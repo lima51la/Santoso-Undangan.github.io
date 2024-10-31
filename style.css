@@ -88,7 +88,9 @@
 
 .home h2, 
 .story h2,
-.galery h2
+.galery h2,
+.RSVP h2,
+.gifts h2
 { 
     color: var(--pink);
     font-family: 'sacramento';
@@ -185,14 +187,18 @@
 } 
 
 .story,
-.galery {
+.galery,
+.RSVP,
+.gifts
+ {
     padding-top: 10rem;
     padding-bottom: 8rem; 
 } 
 
 
 .story span,
-.galery span {
+.galery span,
+.gifts span {
     text-transform: uppercase;
     color: #666;
     font-size: 0.9rem;
@@ -202,7 +208,10 @@
 } 
 
 .story  p,
-.galery p {
+.galery p,
+.RSVP p,
+.gifts p
+ {
     font-size: 1rem;
     font-weight: 300;
 } 
@@ -311,10 +320,58 @@
     background-color: #f5d7d7;
 }
 
+.RSVP {
+    background-color: #0a0a0a;
+}
+
+.RSVP h2 {
+    font-size: 4.5rem;
+}
+
+.RSVP p {
+    color: white;
+}
 
 
+.RSVP form label {
+    color: #f5d7d7;
+}
 
 
+.RSVP button {
+    background-color: var(--pink);
+    color: white;
+    border: 1px solid var(--pink);
+}
+
+.RSVP button:hover {
+    background-color: white;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+footer {
+    padding: 0.5rem;
+    background-color: var(--pink);
+    color: white;
+}
+
+footer a {
+color: #0a0a0a;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+footer a:hover{
+    color: white;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+}
 
   /* media query */
 
